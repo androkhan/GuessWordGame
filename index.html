@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NES games word Guess</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <link rel="icon" href="./assets/images/nesjstk.png">
+    
+</head>
+
+
+
+<body>
+    
+    
+
+
+    <div class="background">
+        <div class="container">
+
+            <h2>Type keys A-Z to make a guess!</h2>
+          
+            <section>
+                <div class=”media”>
+                    <img id="image" src="./assets/images/2-WordGuess.jpg">
+                </div>
+            </section>
+            <h5>(PRESS A KEY TO MAKE A GUESS)</h5>
+            <div>
+                
+                <h3 id="answer">_ _ _ _ _</h3>
+            </div>
+            <div id="scoreboard">
+
+                <div class="side">
+                    
+                    <h3>GUESSES LEFT: <span id="guessesleft"></span>
+                    </h3>
+                </div>
+
+                <div class="side">
+                   
+                    <h3>WINS:<span id="winstracker"></span> + LOSSES:<span id="losstracker"></span>
+                    </h3>
+                </div>
+                
+
+      <div class="side">
+  
+       <h3>INCORRECT LETTERS:<span id="playerwrong"></span>
+                    </h3>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+	<div class="heading">
+        <h1>GUESS - NES - VIDEO - GAME</h1>
+
+        
+    </div>
+
+            
+            <div>
+                
+                <audio id="pacman">
+                    <source src="./assets/audio/pacman.mp3" type="audio/mp3">
+                </audio>
+                
+                <audio id="spaceinvaders">
+                    <source src="./assets/audio/invaders.mp3" type="audio/mp3">
+                </audio>
+                
+                <audio id="donkeykong">
+                    <source src="./assets/audio/donkey.mp3" type="audio/mp3">
+                </audio>
+            
+                <audio id="castlevania">
+                    <source src="./assets/audio/castle.mp3" type="audio/mp3">
+                </audio>
+                
+                <audio id="metroid">
+                    <source src="./assets/audio/metroid.mp3" type="audio/mp3">
+                </audio>
+                
+                <audio id="supermario">
+                    <source src="./assets/audio/mario.mp3" type="audio/mp3">
+                </audio>
+               
+                <audio id="legendofzelda">
+                    <source src="./assets/audio/zelda.mp3" type="audio/mp3">
+                </audio>
+            </div>
+    
+
+    <script src="assets/javascript/game.js"></script>
+
+
+
+
+</body>
+</html>
